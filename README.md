@@ -1,28 +1,26 @@
 # DigiTuck
 
-DigiTuck is a lightweight digital ordering platform designed for school tuckshops, campus vendors, and local spaza shops. The system is intended to reduce customer waiting times by allowing users to browse products, place orders before arriving, and collect their purchases once they are ready.
+DigiTuck is a lightweight digital ordering platform designed for school tuckshops, campus vendors, and local spaza shops. The project aims to reduce customer waiting times by allowing users to browse products, place orders before arriving, and collect their purchases once they are ready.
 
-The project is focused on creating a simple and efficient ordering workflow for small businesses while improving stock visibility and reducing order-entry mistakes.
+The system is intended to improve the ordering experience for both customers and vendors. Customers benefit from faster, more convenient ordering, while vendors gain a more structured way to manage stock, review orders, and update preparation status.
 
 ## Project status
 
-This repository currently contains concept documentation and planning material only. It does not yet include a completed application, database schema, frontend implementation, backend service, or deployment configuration.
+This repository currently contains project documentation and planning material only. It does not yet include a completed application, database schema, frontend implementation, backend service, or deployment configuration.
 
 At this stage, all features described in this document should be treated as planned functionality rather than confirmed implementation. Any item not present in the repository should be regarded as a proposal or future requirement rather than a completed feature.
 
 ## Problem statement
 
-Customers often have limited time to buy food and everyday items during school, campus, or work breaks. Long queues, unclear pricing, stock uncertainty, and informal ordering methods can lead to delays and frustration.
+Small local businesses often rely on informal and time-consuming ordering methods. Customers may wait in long queues, vendors may struggle to track orders, and stock information may be unclear or inconsistent. These issues can lead to delays, customer frustration, and inaccurate order handling.
 
-Many small vendors also struggle to manage orders efficiently without a simple digital workflow. Product information may be inconsistent, order details may be unclear, and stock availability may not be visible to customers before they arrive.
-
-DigiTuck aims to provide a lightweight online ordering experience focused on speed, clarity, and convenience. Delivery is deliberately excluded from the first version so the project can remain focused on the core ordering workflow.
+DigiTuck aims to provide a simple and accessible digital ordering experience focused on speed, clarity, and convenience. The first version is intentionally limited to in-person collection and does not include delivery logistics or online payment processing.
 
 ## Objectives
 
 The project aims to:
 
-- allow customers to browse a vendor's products and prices;
+- allow customers to browse a vendor’s products and prices;
 - make it easier to submit an order before arriving at the shop;
 - help vendors view and manage incoming orders;
 - improve visibility of stock and order status;
@@ -37,7 +35,7 @@ The project aims to:
 DigiTuck is intended to help customers:
 
 - browse available products and prices;
-- view current availability;
+- check current product availability;
 - add items to an order and review the total;
 - submit an order before arriving at the shop;
 - collect their order once it is prepared.
@@ -53,17 +51,17 @@ DigiTuck is intended to help vendors:
 
 ### Administrator (optional)
 
-If an administration module is added later, it may support:
+If an administrative module is added later, it may support:
 
 - managing vendor listings and user access;
 - reviewing reports or disputes;
 - monitoring activity where required.
 
-## Scope and planned features
+## Planned features
 
 The following features are part of the intended scope, but they are not confirmed as implemented in this repository.
 
-### Planned MVP features
+### Minimum viable product (planned)
 
 - [ ] customer-facing product catalogue;
 - [ ] product prices and availability;
@@ -77,10 +75,10 @@ The following features are part of the intended scope, but they are not confirme
 ### Future enhancements
 
 - [ ] order history and basic reporting;
-- [ ] responsive layout for mobile and desktop screens;
+- [ ] responsive design for mobile and desktop screens;
 - [ ] input validation and useful error messages;
 - [ ] automated or documented tests;
-- [ ] administrator tools for vendor management;
+- [ ] administrator management tools;
 - [ ] notifications or reminders for order progress.
 
 Payments, delivery logistics, and third-party integrations are not considered part of the first version and should not be described as available until they are implemented and validated.
