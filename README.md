@@ -301,7 +301,7 @@ license and any institutional requirements before publishing it.
 ## Author
 
 **Project:** DigiTuck --- Online Tuckshop & Spaza Shop Ordering System\
-**Maintainer:** `Add your preferred name or GitHub username`\
-**Repository:** `Add the GitHub repository URL`
+**Maintainer:**
+**Repository:** https://github.com/itprojectgroup53-commits
 
  
