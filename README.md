@@ -1,5 +1,5 @@
 # DigiTuck
-
+#Mary_Test
 DigiTuck is a lightweight digital ordering platform designed for school tuckshops, campus vendors, and local spaza shops. The project aims to reduce customer waiting times by allowing users to browse products, place orders before arriving, and collect their purchases once they are ready.
 
 The system is intended to improve the ordering experience for both customers and vendors. Customers benefit from faster, more convenient ordering, while vendors gain a more structured way to manage stock, review orders, and update preparation status.
