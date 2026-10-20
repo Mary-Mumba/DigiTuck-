@@ -127,10 +127,9 @@ been implemented and tested.
 A future delivery-enabled version may add a delivery assignment and
 delivery status flow.
 
-## Technology stack
+## Technology stack(this section can be completed once the project has been planned)
 
-**The exact stack must match the files in this repository.** The project
-history describes DigiTuck's product concept, but does not establish a
+The project history describes DigiTuck's product concept, but does not establish a
 confirmed implementation language, framework, database, or payment
 provider. Fill in this table after inspecting the project files.
 
