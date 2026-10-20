@@ -1,180 +1,187 @@
-# DigiTuck
+# DigiTuck: Online Tuckshop and Spaza Shop Ordering System
 
-DigiTuck is a concept for a digital ordering system for school tuckshops, campus vendors, and local spaza shops. The goal is to let customers check products and prices, place orders before they arrive, and collect their purchases with less waiting time. The system is also intended to help vendors manage what is in stock and keep track of incoming orders more consistently.
+## 1. Overview
 
-## Project status
+DigiTuck is a concept for a digital ordering system intended for school tuckshops, campus vendors, and local spaza shops. The primary aim is to reduce customer waiting time by allowing users to view products and prices, place orders before arriving at the store, and collect their purchases quickly and efficiently.
 
-This repository currently contains the project documentation and planning material only. It does not yet include a working application, database schema, frontend implementation, backend service, or automated tests.
+The system is also designed to support vendors by helping them manage product availability and incoming orders in a more structured and consistent way.
 
-The items below are planned features and should be treated as future scope unless they are implemented in the codebase.
+## 2. Project status
 
-## Problem statement
+This repository currently contains project concept documentation and planning material only. It does not yet include a completed application, database schema, frontend implementation, backend service, or automated test suite.
 
-Customers often have limited time to buy food and everyday items during school, campus, or work breaks. Queues, unclear prices, unavailable products, and informal ordering methods can cause delays and mistakes. Small vendors may also lack a simple and consistent way to track stock and incoming orders.
+At this stage, the features described in this document should be treated as planned functionality rather than confirmed implementation. Any item that is not present in the repository should be regarded as future work.
 
-DigiTuck aims to provide a lightweight online ordering experience focused on quick ordering, clear availability, and convenient collection. Delivery is not part of the first version and can be considered later as an extension.
+## 3. Problem statement
 
-## Project objectives
+Customers often have limited time to buy food and everyday items during school, campus, or work breaks. Long queues, unclear pricing, unavailable stock, and informal ordering methods can lead to delays, confusion, and mistakes. Small vendors may also struggle to track stock levels and manage orders in a consistent way.
 
-- Allow customers to browse a vendor's products and prices.
-- Help customers submit an order before arriving at the shop.
-- Let vendors view and manage incoming orders.
-- Improve product availability and order status visibility.
-- Reduce queue time and order-entry errors.
-- Keep the experience simple for small businesses and users with limited data.
-- Build a foundation that can be extended after initial testing.
+DigiTuck aims to provide a lightweight online ordering experience focused on quick ordering, accurate availability, and convenient collection. Delivery is deliberately excluded from the first version and may be considered later as an extension.
 
-## Target users
+## 4. Objectives
 
-### Customers and students
+The project aims to:
 
-- Browse available products and prices.
-- Add items to an order and review totals.
-- Submit an order before arriving at the shop.
-- Collect their order when it is ready.
+- allow customers to browse a vendor's products and prices;
+- make it easier to submit an order before arriving at the shop;
+- help vendors view and manage incoming orders;
+- improve visibility of stock and order status;
+- reduce queue time and order-entry mistakes;
+- keep the system simple for small businesses and users with limited mobile data;
+- establish a foundation that can be extended after testing with real users.
 
-### Tuckshop and spaza shop vendors
+## 5. Target users
 
-- Maintain item names, prices, and stock information.
-- Review incoming orders.
-- Accept or reject orders.
-- Update order preparation status.
+### 5.1 Customers and students
 
-### Administrator (optional)
+- browse available products and prices;
+- view current availability;
+- add items to an order and review the total;
+- submit an order before arriving at the shop;
+- collect their order once it is prepared.
 
-- Manage vendor listings and account access.
-- Review reports or disputes.
-- Monitor activity if such a module is added later.
+### 5.2 Tuckshop and spaza shop vendors
 
-## Planned features
+- maintain product names, prices, and stock information;
+- review incoming orders;
+- accept or reject orders;
+- update order preparation status.
+
+### 5.3 Administrator (optional)
+
+- manage vendor listings and user access;
+- review reports or disputes;
+- monitor activity where an administrator module is added.
+
+## 6. Planned features
 
 The following features are part of the intended scope, but they are not confirmed as implemented in this repository:
 
-- [ ] Customer-facing product catalogue
-- [ ] Product prices and availability
-- [ ] Shopping cart and order total
-- [ ] Order submission and unique order reference
-- [ ] Vendor view for incoming orders
-- [ ] Order status updates (Pending, Accepted, Preparing, Ready, Collected, Cancelled)
-- [ ] Vendor product and stock management
-- [ ] Customer and vendor authentication
-- [ ] Order history and basic reporting
-- [ ] Responsive layout for mobile and desktop screens
-- [ ] Input validation and helpful error messages
-- [ ] Automated or documented tests
+- [ ] customer-facing product catalogue;
+- [ ] product prices and availability;
+- [ ] shopping cart and order total;
+- [ ] order submission and unique order reference;
+- [ ] vendor view for incoming orders;
+- [ ] order status updates (for example: Pending, Accepted, Preparing, Ready, Collected, Cancelled);
+- [ ] vendor product and stock management;
+- [ ] customer and vendor authentication;
+- [ ] order history and basic reporting;
+- [ ] responsive layout for mobile and desktop screens;
+- [ ] input validation and useful error messages;
+- [ ] automated or documented tests.
 
-Payments and delivery are out of scope for the initial phase and should not be treated as available until they are implemented and tested.
+Payments, delivery logistics, and third-party integrations are not considered part of the first version and should not be described as available until they are implemented and tested.
 
-## Typical order workflow
+## 7. Typical order workflow
 
 1. A customer opens DigiTuck and selects a shop.
-2. The customer views the available products and prices.
-3. The customer adds items to the cart and reviews quantities and totals.
-4. The system validates the order against current stock.
+2. The customer reviews the available products and prices.
+3. The customer adds items to the cart and checks the total.
+4. The system validates the order against current availability.
 5. The customer submits the order.
-6. The vendor reviews the order and accepts or rejects it.
-7. If accepted, the vendor prepares the order and updates its status.
+6. The vendor reviews and accepts or rejects the order.
+7. If accepted, the vendor prepares the order and updates the status.
 8. The customer collects the order and the order is marked complete.
 
-## Technology stack
+## 8. Technology stack
 
-No application stack has been selected or implemented in this repository yet.
+No application technology stack has been selected or implemented in this repository yet.
 
-This project has not yet confirmed a language, framework, database, or hosting approach. The technology stack should be added only after the implementation is created and verified in the repository.
+The project has not yet confirmed a language, framework, database, deployment model, or payment provider. This information should be added only after the implementation exists and is verified in the repository.
 
-## Repository structure
+## 9. Repository structure
 
-The repository currently contains the project documentation only.
+The repository currently contains project documentation only.
 
 ```text
 DigiTuck-
 ├── README.md
 ```
 
-No source code, build files, environment files, database scripts, or tests are present at this time.
+At present, there are no source code files, frontend or backend folders, package manager files, database scripts, or test files in this repository.
 
-## Getting started
+## 10. Getting started
 
-This repository does not yet contain a runnable application, so there are no validated installation or startup commands to document yet.
+This repository does not yet contain a runnable application, therefore no validated installation or execution commands are available at this time.
 
 ### Current state
 
-- No backend code
-- No frontend code
-- No package manager files
-- No database configuration
-- No automated tests
+- no backend code;
+- no frontend code;
+- no dependency files;
+- no database configuration;
+- no automated tests.
 
 ### Recommended next steps
 
-1. Choose the implementation stack.
-2. Create the project structure.
-3. Add configuration and environment files.
-4. Implement the core order flow.
-5. Add database schema and seed data if needed.
-6. Write tests for catalogue, ordering, and vendor workflow.
-7. Update this README once the project is implemented.
+1. select an implementation stack;
+2. create the project structure;
+3. define configuration and environment settings;
+4. implement the core ordering workflow;
+5. add database schema and sample data if required;
+6. write tests for product browsing, ordering, and vendor management;
+7. update this README once the implementation is complete and verified.
 
-## Configuration and security
+## 11. Configuration and security
 
-- Keep credentials and secrets out of source control.
-- Add local environment files and generated output to `.gitignore`.
-- Validate input on both client and server sides where relevant.
-- Enforce access control for vendor and administrator functions.
-- Do not store raw bank-card details.
-- Use HTTPS in deployed environments.
-- Collect only the data needed for the service.
-- Use fictional or sample data in demos and screenshots.
+- keep passwords, API keys, database credentials, and secrets out of source control;
+- add local environment files and generated outputs to `.gitignore`;
+- validate user input on both client and server sides where appropriate;
+- enforce access control for vendor and administrator functions;
+- do not store raw bank-card details;
+- use HTTPS in deployed environments;
+- collect only the minimum customer data required for the service;
+- use fictional or sample data in demonstrations and screenshots.
 
-## Testing
+## 12. Testing
 
-Testing should be added once the implementation exists. Before release, the project should validate at least the following:
+Testing should be introduced once the application has been implemented. Before release, the project should validate at least the following:
 
-- Product lists display the correct prices.
-- Unavailable products cannot be ordered.
-- Cart totals are calculated correctly.
-- Invalid orders are rejected.
-- Vendors can distinguish new, accepted, rejected, and completed orders.
-- Customer access is restricted from vendor-only and administrator-only features.
-- Errors are presented clearly to users.
-- The interface remains usable on smaller screens.
+- product lists display correct prices;
+- unavailable products cannot be ordered;
+- cart quantities and totals are calculated correctly;
+- invalid or incomplete orders are rejected;
+- vendor-only and administrator-only functions are restricted appropriately;
+- new, accepted, rejected, and completed orders are clearly differentiated;
+- errors are communicated clearly to users;
+- the interface remains usable on small screens.
 
-No test results are currently recorded in this repository.
+No formal test results are currently recorded in this repository.
 
-## Roadmap
+## 13. Roadmap
 
-1. Define requirements and confirm the product scope.
-2. Create the catalogue and product data model.
-3. Implement cart and order submission flows.
-4. Build vendor workflow for stock and order management.
-5. Add validation, access control, and error handling.
-6. Add tests and documentation.
-7. Pilot the system with a small group of vendors and customers.
-8. Evaluate extensions such as payments, notifications, and delivery only after the core workflow is stable.
+1. confirm requirements and project scope;
+2. define the product catalogue and product data model;
+3. implement cart functionality and order submission;
+4. build the vendor workflow for stock and order management;
+5. add validation, access control, and error handling;
+6. create tests and documentation;
+7. pilot the system with a small group of vendors and customers;
+8. evaluate extensions such as payments, notifications, and delivery only after the core workflow is stable.
 
-## Contributing
+## 14. Contributing
 
-Contributions are welcome once the project implementation begins.
+Contributions are welcome once the implementation begins.
 
-1. Create a branch for your update.
-2. Keep changes focused and explain the reason for them.
-3. Run the relevant tests.
-4. Update documentation when behavior or setup changes.
-5. Open a pull request describing the change and how it was tested.
+1. create a branch for the planned change;
+2. keep changes focused and explain the rationale;
+3. run the relevant tests;
+4. update documentation when behaviour or setup changes;
+5. open a pull request describing the change and how it was tested.
 
-## Limitations and important notes
+## 15. Limitations and important notes
 
-- DigiTuck is intended for small local tuckshops and spaza shops, not large-scale delivery operations.
-- Product availability depends on vendors keeping stock information up to date.
-- A prototype may not yet support real customer accounts, payment processing, delivery, or production hosting.
-- Any school-based pilot should have the necessary approval and account for relevant school rules.
-- This repository's current implementation status takes precedence over any planned features described in this document.
+- DigiTuck is intended for small local tuckshops and spaza shops, not large-scale delivery operations;
+- product availability depends on vendors keeping stock information up to date;
+- a prototype may not support real customer accounts, online payments, delivery, or production hosting;
+- any school-based pilot must obtain the necessary approval and account for relevant school rules;
+- the current state of this repository takes precedence over any planned functionality described in this document.
 
-## License
+## 16. License
 
-No license has been selected yet. Until a license is added, do not assume that others may reuse, distribute, or modify this project.
+No license has been selected for this project yet. Until a license is added, no assumption should be made that others may reuse, distribute, or modify the code.
 
-## Author
+## 17. Author
 
 Project: DigiTuck
 
