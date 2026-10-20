@@ -1,5 +1,4 @@
-# DigiTuck-
-# DigiTuck --- Online Tuckshop & Spaza Shop Ordering System
+# DigiTuck Online Tuckshop & Spaza Shop Ordering System
 
 DigiTuck is a digital ordering concept for school tuckshops, campus
 vendors, and local spaza shops. It is designed to help customers check
