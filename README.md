@@ -6,7 +6,8 @@ products and prices, place orders before reaching the shop, and collect
 them with less waiting. It also aims to help vendors manage product
 availability and incoming orders more consistently.
 
-> **Project status:**
+>##Project status:
+> 
 >This README documents the project vision and
 > proposed functionality. Update the status and setup instructions to
 > match the code that is actually present in this repository. Features
