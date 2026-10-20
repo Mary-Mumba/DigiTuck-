@@ -17,7 +17,6 @@ described as planned are not claims that they have already been implemented.
 
 The diagram below shows the intended DigiTuck workflow for students/customers and vendor/shop owners, including the MySQL database, order processing, and notifications.
 
-
 *Figure 1. DigiTuck system flow diagram. The image is stored in this repository so GitHub can display it directly in the README.*
 
 ## Table of contents
