@@ -163,12 +163,8 @@ commands for this repository.
 
 ### 1. Clone the repository
 
-Replace `<YOUR-GITHUB-USERNAME>` with your GitHub username and
-`<REPOSITORY-NAME>` with the repository's exact name.
-
 ``` bash
-git clone https://github.com/<YOUR-GITHUB-USERNAME>/<REPOSITORY-NAME>.git
-cd <REPOSITORY-NAME>
+git clone https://github.com/itprojectgroup53-commits
 ```
 
 ### 2. Install dependencies
